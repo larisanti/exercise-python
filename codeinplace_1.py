@@ -24,7 +24,6 @@ end in the same position Karel starts in -- the bottom left
 corner of the world.
 """
 
-
 def main():
     """
     This function was created to solve the problem "Jigsaw Karel".
