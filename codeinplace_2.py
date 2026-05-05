@@ -16,19 +16,19 @@ Notes:
 
 from karel.stanfordkarel import *
 
-# Exercise a
+# Exercise 2.a
 def backflip():
     for i in range(4):
         turn_left()
 
-# Exercise b
+# Exercise 2.b
 def put_five_beepers():
     move()
     for i in range(5):
         put_beeper()
     move()
 
-# Exercise c
+# Exercise 2.c
 def square_of_beepers():
     for i in range(4):
         put_beeper()
