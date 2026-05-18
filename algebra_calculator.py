@@ -10,6 +10,7 @@ Notes:
 - É super interessante construir uma automatização do que estudei, 
   sinto que o aprendizado se materializa e tem feito sentido (:
 - Invés de usar um aplicativo de calculadora, estou usando meus scripts.
+- Estou continuando no jupyter notebook: algebra_calculator.ipynb
 """
 
 # Regra de três (proportions)
