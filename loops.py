@@ -47,7 +47,13 @@ def count_failed_students(student_scores):
         int: The count of student scores at or below 40.
     """
 
-    pass
+    count = 0
+
+    for score in student_scores:
+        if score <= 40:
+            count += 1
+
+    return count
 
 
 def above_threshold(student_scores, threshold):
@@ -61,7 +67,13 @@ def above_threshold(student_scores, threshold):
         list[int]: Integer scores that are at or above the "best" threshold.
     """
 
-    pass
+    top_score = []
+
+    for score in student_scores:
+        if score >= threshold:
+            top_score.append(score)
+
+    return top_score
 
 
 def letter_grades(highest):
