@@ -1,2 +1,14 @@
 # exercise-python
-Neste repositório, documento meus exercícios e minha aprendizagem de lógica de programação em Python. O acervo reúne desafios realizados em ambientes web e outros desenvolvidos localmente com validação via Pytest. As referências e os objetivos de cada desafio estão especificados nos códigos.
+
+Este repositório documenta o meu aprendizado na linguagem Python e me ajuda a refletir sobre o meu progresso. ✨
+
+Tudo começou em 20 de agosto de 2024, quando escrevi meu [primeiro "Hello World"](codecademy_hello_world.py) no IDE da Codecademy (quando eu não sabia dar commit). A partir daí, tenho construído projetos em python desde os mais simples por conta própria até mais complexos com suporte de IA.
+
+Então, surgiu a ideia de reunir alguns exercícios antigos e documentar os atuais.
+
+Hoje, meus estudos em Python estão concentrados em:
+1. dominar matemática aplicada em programação com o College Algebra with Python (freeCodeCamp);
+2. revisar minha base de lógica com a metodologia do Code in Place (Stanford University); 
+3. resolver desafios práticos na trilha de Python do Exercism, com validação local via Pytest.
+
+Meu objetivo final é compartilhar o meu interesse pela linguagem e o meu desejo de ser uma excelente Engenheira de Software. ✨
