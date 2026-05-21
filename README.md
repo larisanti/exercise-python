@@ -1,4 +1,4 @@
-# exercise-python
+# exercise-python 🏋️‍♀️
 
 Este repositório documenta o meu aprendizado na linguagem Python e me ajuda a refletir sobre o meu progresso. ✨
 
@@ -8,7 +8,7 @@ Então, surgiu a ideia de reunir alguns exercícios antigos e documentar os atua
 
 Hoje, meus estudos em Python estão concentrados em:
 1. dominar matemática aplicada em programação com o College Algebra with Python (freeCodeCamp);
-2. revisar minha base de lógica com a metodologia do Code in Place (Stanford University); 
+2. revisar minha base de lógica com a metodologia do Code in Place (Stanford University);
 3. resolver desafios práticos na trilha de Python do Exercism, com validação local via Pytest.
 
-Meu objetivo final é compartilhar o meu interesse pela linguagem e o meu desejo de ser uma excelente Engenheira de Software. ✨
+Meu objetivo final é compartilhar o meu interesse pela linguagem e o meu desejo de ser uma excelente Engenheira de Software. 😊
