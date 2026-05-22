@@ -29,9 +29,9 @@ def round_scores(student_scores):
     """
 
     rounded_scores = []
-    
+
     while student_scores:
-        score = studen_scores.pop()
+        score = student_scores.pop()
         rounded_scores.append(round(score))
 
     return rounded_scores
@@ -93,7 +93,10 @@ def letter_grades(highest):
             86 <= "A" <= 100
     """
 
-    pass
+    total_range = highest - 40
+    step = total_range // 4
+
+    return [41 + step * i for i in range(4)]
 
 
 def student_ranking(student_scores, student_names):
@@ -107,7 +110,12 @@ def student_ranking(student_scores, student_names):
         list[str]: Strings in format ["<rank>. <student name>: <score>"].
     """
 
-    pass
+    ranking = []
+
+    for i in range(len(student_scores)):
+        ranking.append(f"{i + 1}. {student_names[i]}: {student_scores[i]}")
+
+    return ranking
 
 
 def perfect_score(student_info):
@@ -120,4 +128,8 @@ def perfect_score(student_info):
         list: First `[<student name>, 100]` found OR `[]` if no student score of 100 is found.
     """
 
-    pass
+    for student in student_info:
+        if student[1] == 100:
+            return student
+
+    return []
