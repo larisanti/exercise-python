@@ -14,26 +14,26 @@ terminam com uma parede no final.
 from karel.stanfordkarel import *
 
 def main():
-    while True:
-        # Fill a row e retorna para a primeira coluna
+    # Preenche a primeira row
+    fill_row_and_return()
+    
+    # Precisa virar para north para saber se tem mais rows
+    turn_left()
+    while front_is_clear():
+        move()
+        # Vira para o leste para preencher a próxima row
+        turn_right()
         fill_row_and_return()
-        
-        # Precisa virar pro north para saber se pode mover
         turn_left()
-        if front_is_clear():
-            move()
-            # Virar para ir pra próxima row
-            turn_right()
-        else:
-            # Última row
-            turn_right()
-            move_to_wall()
-            break
+        
+    # Última row
+    turn_right()
+    move_to_wall()
+
 
 def fill_row_and_return():
     """
-    Preenche a linha atual com beepers movendo-se para o Leste,
-    então retorna para a primeira coluna (Oeste) e vira para o Leste.
+    Preenche a linha atual com beepers e volta.
     """
     safe_put_beeper()
     while front_is_clear():
@@ -67,9 +67,6 @@ def turn_around():
     turn_left()
 
 def turn_right():
-    """
-    Vira o Karel 90 graus para a direita.
-    """
     turn_left()
     turn_left()
     turn_left()
