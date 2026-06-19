@@ -4,6 +4,13 @@ Code in Place (Stanford)
 
 Objetivos:
 Praticar loops, condicionais e atribuição de variável.
+
+Notes:
+Ainda está fácil e estou quase finalizando o curso.
+Na próxima semana vou focar meu tempo de estudo de python
+nos exercícios do Exercism, pois são desafiadores pra mim.
+Embora este curso não tenha certificado e seja básico,
+está valendo a pena revisar e quero concluir.
 """
 
 import random
