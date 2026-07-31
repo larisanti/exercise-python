@@ -6,15 +6,13 @@ Objective:
 Praticar processamento de strings.
 
 Notes:
-- alfabeto: 0 a 26
+- considerar alfabeto: 0 a 26
 - ord() = mostra o nro ascii da letra
 - chr() = transforma nro ascii em letra
-- steps:
-   1. identificar se a letra é maiúscula ou minúscula (definir a base)
-   2. encontrar a posição da letra de 0 a 25 (subtrair a base)
-   3. somar a key e usar resto da divisão pra jogar pro início da lista
-   4. transformar em letra novamente (somar a base de volta)
-   5. manter espaços e pontuações
+- str.maketrans = cria tabela de tradução
+- str.translate = método pra traduzir string:
+    - mais rápido que loop for por caractere 
+    - imutável: não altera string original, retorna uma nova
 """
 # a = ord('a')
 # A = ord('A')
@@ -22,22 +20,19 @@ Notes:
 
 def rotate(text, key):
     """ Transformar texto em código Caesar Cipher."""
-    resultado = []
-    for letra in text:
-        if letra.isalpha():
-            if letra.islower():
-                base = ord("a")
-            else:
-                base = ord("A")
-            posicao = ord(letra) - base
-            nova_posicao = (posicao + key) % 26
-            letra_cifrada = chr(nova_posicao + base)
-            resultado.append(letra_cifrada)
-        else:
-            resultado.append(letra)
+    minuscula = "abcdefghijklmnopqrstuvwxyz"
+    maiuscula = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-    return "".join(resultado)
+    minuscula_rotacionada = minuscula[key:] + minuscula[:key]
+    maiuscula_rotacionada = maiuscula[key:] + maiuscula[:key]
+
+    todas = minuscula + maiuscula
+    todas_rotacionadas = minuscula_rotacionada + maiuscula_rotacionada
+
+    traducao = str.maketrans(todas, todas_rotacionadas)
+
+    return text.translate(traducao)
 
 # print(rotate("omg", 5))
 # print(rotate("a", 0))
-# print(rotate("Cool", 26)) #saiu Wool
+# print(rotate("Cool", 26))
