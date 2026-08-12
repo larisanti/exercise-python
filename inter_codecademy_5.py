@@ -3,7 +3,7 @@ Curso:
 Learn Intermediate Python 3 (Codecademy)
 
 Objetivo:
-Praticar 
+Praticar funções com **kwargs.
 
 Notes:
 - **kwargs = keyword arguments
