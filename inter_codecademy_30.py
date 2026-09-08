@@ -6,6 +6,7 @@ Objetivo:
 Praticar conceito de abstração. 
 
 Notes:
+- ABC  -> abstract base class
 - abstraction: esconde detalhes interno
 ^ mostra o essencial pra uso da classe/objeto
 - métodos abstratos usam o decorator:
