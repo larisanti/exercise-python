@@ -2,6 +2,10 @@
 Curso:
 Programação III (Uninter - Bacharelado em Engenharia de Software)
 
+Objetivo:
+Praticar recursão
+
+Notas:
 - calcular fatorial
   5! = 5*4*3*2*1
 - para de abrir funções quando chegar no valor mínimo da fatorial (1)
