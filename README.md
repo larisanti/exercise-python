@@ -5,10 +5,4 @@ Este repositório documenta o meu aprendizado da linguagem Python e me ajuda a r
 Tudo começou em 20 de agosto de 2024, quando escrevi meu [primeiro "Hello World"](codecademy_hello_world.py) no IDE da Codecademy (quando eu não sabia dar commit). A partir daí, tenho construído projetos em Python, desde os mais simples por conta própria até os mais complexos com suporte de IA.
 
 Então, surgiu a ideia de reunir alguns exercícios antigos e documentar os atuais.
-
-Hoje, meus estudos em Python estão concentrados em:
-1. aprender matemática aplicada em programação com o curso "College Algebra with Python" (freeCodeCamp);
-2. resolver desafios práticos na trilha de Python do Exercism, com validação local via Pytest;
-3. aprofundar tópicos de nível intermediário com o curso "Learn Intermediate Python 3" (Codecademy).
-
 Meu objetivo final é compartilhar o meu interesse pela linguagem e o meu desejo de ser uma excelente Engenheira de Software. 😊
