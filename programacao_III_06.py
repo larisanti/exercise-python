@@ -15,7 +15,7 @@ Notas:
   ^ exceto pra PG (crescimento exponencial)
 """
 
-# algoritmo bubble sort pra busca sequencial crescente
+# algoritmo bubble sort pra busca/ordenação sequencial crescente
 def bubble_sort(dados):
     n = len(dados)
 
